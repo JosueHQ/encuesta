@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.left {
+    flex: 2;
+    padding: 40px;
+}
+
+.right {
+    flex: 1;
+    background-color: #8c7ae6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* 🚫 Evita el desbordamiento */
+    padding: 10px;
+} 
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #a033a0;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.pregunta {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.opciones label {
+    display: block;
+    background-color: #f9f9f9;
+    margin: 6px 0;
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.opciones label:hover {
+    background-color: #eee;
+}
+
+.opciones input[type="radio"],
+.opciones input[type="checkbox"] {
+    float: right;
+    margin-top: 4px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+button.boton {
+    margin-top: 30px;
+    background-color: #00bfa6;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.boton:hover {
+    background-color: #009688;
+}
+
+.boton-centro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.logo-img {
+    max-width: 120px; /* o el tamaño que quieras */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

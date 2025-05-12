@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px;
+}
+.form-box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 30px 40px;
+    width: 60%;
+}
+.form-box h2 {
+    color: #b23cfd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-box h3 {
+    color: #444;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.question {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.question p {
+    font-weight: bold;
+}
+.option {
+    margin: 5px 0;
+}
+.option input {
+    margin-right: 10px;
+}
+.submit-btn {
+    background: #b23cfd;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.right-panel {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+.right-panel img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-box, .right-panel {
+        width: 100%;
+    }
+}
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.contenedor {
+    max-width: 650px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.icono {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #6C63FF;
+}
+
+.icono-img {
+    width: 60px;
+    height: 60px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.boton {
+    padding: 12px 30px;
+    background: #00bfa6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.boton:hover {
+    background: #009688;
+}
+
